@@ -1,0 +1,111 @@
+.main-profile {
+    margin: 0 auto;
+    width: 68%;
+    background-color: white;
+    box-shadow: 0px 1px 10px gray;
+    padding: 40px 25px 25px 25px;
+    margin-bottom: 25px;
+
+    color: #212121;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-sizing: border-box;
+    /* font-family: Roboto, sans-serif; */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    z-index: 1;
+}
+.padding1 {
+    padding: 16px;
+    font-size: 14px;
+    color: #212121;
+    /* font-family: Roboto,Arial,Helvetica,sans-serif; */
+}
+.profile-header {
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+.profile-header-avatar {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.profile-header-avatar img {
+    width: 100%;
+    height: 100%;
+}
+.profile-header-title {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+.user-stats {
+    background: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.24), 0 1px 1px 0 rgba(0,0,0,.12);
+    border-radius: 2px;
+    padding-bottom: 8px;
+}
+.user-stats-wrapper {
+    box-sizing: border-box;
+    color: rgba(33, 33, 33, 0.54);
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 48px;
+    padding-left: 16px;
+    width: 100%;
+}
+.stats-timer-icon {
+    color: #212121;
+    display: block;
+    font-size: 16px;
+    line-height: 16px;
+    position: relative;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    margin-left: 0;
+    padding-left: 72px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-top: 20px;
+}
+.timer-icon {
+    display: inline-block;
+    color: #ffffff;
+    fill: #ffffff;
+    height: 24px;
+    width: 24px;
+    user-select: none;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    font-size: 24px;
+    margin: 8px;
+}
+.text-styling {
+    font-size: 14px;
+    line-height: 16px;
+    height: 16px;
+    margin: 0;
+    margin-top: 4px;
+    color: rgba(0, 0, 0, 0.54);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.label-wrapper {
+    height: 45px;
+    margin-top: 10px;
+    position: relative;
+}
+.profile-select {
+    padding: 10px;
+    border: 0;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.12), 0 2px 2px 0 rgba(0,0,0,.24);
+    border-radius: 2px;
+    font-size: .875em;
+    line-height: 16px;
+    cursor: pointer;
+
+}
